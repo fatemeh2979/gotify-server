@@ -42,7 +42,7 @@ server:
 
 database: # for database see (configure database section)
   dialect: postgres
-  connection: host=localhost port=5432 user=postgres dbname=gitifyelz_db password=a3sbz3z55dwrgiz sslmode=disable
+  connection: host=gitify-cpm-service port=5432 user=postgres dbname=gitifyelz_db password=a3sbz3z55dwrgiz sslmode=disable
 
 defaultuser: # on database creation, gotify creates an admin user
   name: admin # the username of the default user
