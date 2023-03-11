@@ -4,7 +4,7 @@
 server:
   keepaliveperiodseconds: 0 # 0 = use Go default (15s); -1 = disable keepalive; set the interval in which keepalive packets will be sent. Only change this value if you know what you are doing.
   listenaddr: "" # the address to bind on, leave empty to bind on all addresses
-  port: 8001 # the port the HTTP server will listen on
+  port: 9990 # the port the HTTP server will listen on
 
   ssl:
     enabled: false # if https should be enabled
